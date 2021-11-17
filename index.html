@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML links</title>
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Monda">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+   <body> 
+    <main>
+        <header id="h">
+            <h1>HTML Links</h1>
+        </header>
+        <div class = "container">
+                <div class = "glasscard">
+                <h1>01</h1>
+                <div class = "content">
+                    <h2>Image Link</h2>
+                    <div class = "img1"><a href="https://earth.google.com/web/"><img src ="https://cdn.mos.cms.futurecdn.net/3upZx2gxxLpW7MBbnKYQLH-1200-80.jpg" alt ="Earth" ></a></div>                    
+                    <h3>To use an image as a link, just put the img tag inside the a tag</h3>
+                    
+                </div>
+            </div>
+            <div class="glasscard">
+                <h1>02</h1>
+                <div class="content">
+                    <h2>Email & Phone <BR>link</h2>
+                    <a href="mailto:shimpli.patil2804@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> E- Mail</i></a>
+                    <a href="tel:+918669066319"><i class="fa fa-phone" aria-hidden="true"></i> Phone</a>
+                    <h3>Use mailto: & tel: inside the href attribute to create a link that opens the user's email & phone program.</h3>
+                </div>    
+            </div>
+            <div class="glasscard">
+                <h1>03</h1>
+                <div class="content">                
+                    <h2>Button Link</h2>
+                    <button class="button" onclick="document.location= 'https://maps.google.co.in/maps?hl=en&tab=rl'">Map</button>
+                    <h3>To use an HTML button as a link, you have to add Js code document.loction='loation' </h3>
+                </div>    
+            </div>
+            <div class="glasscard">
+                <h1>04</h1>
+                <div class="content">                
+                    <h2>Link Title</h2>
+                    <a href="https://news.google.com/?tab=rn" title="Go to Google News">Google News</a>
+                    <h3>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</h3>
+                </div>    
+            </div>
+            <div class="glasscard">
+                <h1>05</h1>
+                <div class="content">                
+                    <h2>Absolute URL</h2>
+                    <a href="https://youtube.com" title="Go to Youtube">Youtube</a>
+                    <h3>An absolute URL uses the full-path address to link to a webpage.</h3>
+                </div>    
+            </div>
+            <div class="glasscard">
+                <h1>06</h1>
+                <div class="content">                
+                    <h2>Relative URL</h2>
+                    <a href="/Web Development/CW-4/#h" title="Go to Header">Header</a>
+                    <a href="/Web Development/CW-4/#f" title="Go to Footer">Footer</a>
+                    <h3>Relative URLs are a local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part):</h3>
+                </div>    
+            </div>
+        </div>
+        </main>
+        <footer id="f">
+            <div class="footer_bottom">
+            <div class="footer_content">
+                <h4>Siddhant Patil</h4>
+                <ul class="social"> 
+                <li><a href="https://github.com/Siddhant-Patil0203" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/siddhant-patil-934113205/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/sidd.0203/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/siddhant.patil.792303/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            
+                <p>copyright &copy;2021 Siddhant Patil</p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".glasscard"), {
+		    max: 25,speed: 400});
+        </script>
+    </body>
+</html>
